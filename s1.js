@@ -143,8 +143,9 @@ sketch.setup = function() {
   letterZ.updatePixels(); // updates image     
   
   sSlider = sketch.createSlider(10,150,100);
-  sSlider.position(40, 200);
+  sSlider.position(40, 260);
   sSlider.style('width', '200px');};
+  sSlider.addClass("mySliders");
   // sSlider.sketch.addClass("Slider");
 
 
@@ -411,7 +412,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -458,7 +459,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -505,7 +506,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -552,7 +553,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -599,7 +600,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -646,7 +647,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -693,7 +694,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -740,7 +741,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -834,7 +835,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1400,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -881,7 +882,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -928,7 +929,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1400,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -975,7 +976,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -1021,7 +1022,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -1068,7 +1069,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -1115,7 +1116,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -1162,7 +1163,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -1210,7 +1211,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -1257,7 +1258,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -1304,7 +1305,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -1352,7 +1353,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1400,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -1399,7 +1400,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -1446,7 +1447,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -1494,7 +1495,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -1541,7 +1542,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -1588,7 +1589,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
@@ -1636,7 +1637,7 @@ sketch.setup = function() {
       sketch.pop()
         
         sketch.push()
-      sketch.translate(startx- img.width/2+1200,starty - img.height/2,z)
+      sketch.translate(startx- img.width/2+1600,starty - img.height/2,z)
 
       sketch.rectMode(sketch.CENTER);
       sketch.rotateY(sketch.frameCount*0.04);
