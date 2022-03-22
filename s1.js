@@ -143,7 +143,7 @@ sketch.setup = function() {
   letterZ.updatePixels(); // updates image     
   
   sSlider = sketch.createSlider(10,150,100);
-  sSlider.position(40, 260);
+  sSlider.position(70, 250);
   sSlider.style('width', '200px');};
   sSlider.addClass("mySliders");
   // sSlider.sketch.addClass("Slider");
