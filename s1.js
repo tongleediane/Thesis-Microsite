@@ -147,11 +147,6 @@ sketch.setup = function() {
   sSlider.style('width', '200px');};
   // sSlider.sketch.addClass("Slider");
 
-  //button element
-  buttonElement = sketch.createButton("SAVE JPG.");
-        buttonElement.position(sketch.windowWidth-200, sketch.windowHeight-120);
-        buttonElement.mousePressed(save);
-  
 
   
   // type in letter to draw
